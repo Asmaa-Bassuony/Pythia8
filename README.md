@@ -3,7 +3,7 @@ The provided code includes sections for using the PYTHIA event generator and ROO
 
 # Code Overview
 Event Generation with PYTHIA:
-27000 GeV
+
 Initializes the PYTHIA generator for simulations of proton-proton collisions at a specified center-of-mass energies 
 Uses the SoftQCD:all setting, which simulates soft QCD interactions.
 The event loop generates particles and collects kinematic information for analysis.
