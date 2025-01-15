@@ -1,8 +1,6 @@
 # Pythia8
 The provided code includes sections for using the PYTHIA event generator and ROOT histogramming libraries to study charged particle multiplicities and jet properties in high-energy physics simulations. However, due to the incomplete truncation at the end, a few details might be missing.
 
-Here’s a brief explanation of the core components in the code:
-
 # Code Overview
 Event Generation with PYTHIA:
 
