@@ -11,13 +11,13 @@ using namespace Pythia8;
 int main() {
   // Generator. Process selection. LHC initialization. Histogram.
   Pythia pythia;
-  pythia.readString("Beams:eCM = 8000.");
+  pythia.readString("Beams:eCM = 14000.");
   pythia.readString("HardQCD:all = on");
   pythia.readString("PhaseSpace:pTHatMin = 20.");
   pythia.init();
   Hist mult("charged multiplicity", 100, -0.5, 799.5);
   // Begin event loop. Generate event. Skip if error. List first one.
-  for (int iEvent = 0; iEvent < 100; ++iEvent) {
+  for (int iEvent = 0; iEvent < 100000000; ++iEvent) {
     if (!pythia.next()) continue;
     // Find number of all final charged particles and fill histogram.
     int nCharged = 0;
